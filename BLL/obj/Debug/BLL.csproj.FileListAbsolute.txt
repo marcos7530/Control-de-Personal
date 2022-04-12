@@ -7,3 +7,4 @@ C:\Users\marco\source\repos\PERSONAL_MANAGER\BLL\obj\Debug\BLL.csproj.CoreCompil
 C:\Users\marco\source\repos\PERSONAL_MANAGER\BLL\obj\Debug\BLL.csproj.CopyComplete
 C:\Users\marco\source\repos\PERSONAL_MANAGER\BLL\obj\Debug\BLL.dll
 C:\Users\marco\source\repos\PERSONAL_MANAGER\BLL\obj\Debug\BLL.pdb
+C:\Users\marco\source\repos\PERSONAL_MANAGER\BLL\bin\Debug\DAL.dll.config

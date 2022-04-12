@@ -36,6 +36,9 @@ namespace PERSONAL_MANAGER
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnAdd = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btnClear = new System.Windows.Forms.Button();
+            this.btnSearch = new System.Windows.Forms.Button();
+            this.cmbPosition = new System.Windows.Forms.ComboBox();
             this.cmbDepartment = new System.Windows.Forms.ComboBox();
             this.lblPosition = new System.Windows.Forms.Label();
             this.lblDepartment = new System.Windows.Forms.Label();
@@ -45,9 +48,6 @@ namespace PERSONAL_MANAGER
             this.lblSurname = new System.Windows.Forms.Label();
             this.lblName = new System.Windows.Forms.Label();
             this.lblUserNum = new System.Windows.Forms.Label();
-            this.cmbPosition = new System.Windows.Forms.ComboBox();
-            this.btnSearch = new System.Windows.Forms.Button();
-            this.btnClear = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -83,6 +83,7 @@ namespace PERSONAL_MANAGER
             this.btnClose.TabIndex = 7;
             this.btnClose.Text = "Close";
             this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // btnDelete
             // 
@@ -103,6 +104,7 @@ namespace PERSONAL_MANAGER
             this.btnUpdate.TabIndex = 5;
             this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnAdd
             // 
@@ -113,6 +115,7 @@ namespace PERSONAL_MANAGER
             this.btnAdd.TabIndex = 4;
             this.btnAdd.Text = "Add";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // panel2
             // 
@@ -133,6 +136,34 @@ namespace PERSONAL_MANAGER
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(614, 138);
             this.panel2.TabIndex = 2;
+            // 
+            // btnClear
+            // 
+            this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClear.Location = new System.Drawing.Point(483, 69);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(115, 43);
+            this.btnClear.TabIndex = 11;
+            this.btnClear.Text = "Clear";
+            this.btnClear.UseVisualStyleBackColor = true;
+            // 
+            // btnSearch
+            // 
+            this.btnSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSearch.Location = new System.Drawing.Point(483, 11);
+            this.btnSearch.Name = "btnSearch";
+            this.btnSearch.Size = new System.Drawing.Size(115, 43);
+            this.btnSearch.TabIndex = 10;
+            this.btnSearch.Text = "Search";
+            this.btnSearch.UseVisualStyleBackColor = true;
+            // 
+            // cmbPosition
+            // 
+            this.cmbPosition.FormattingEnabled = true;
+            this.cmbPosition.Location = new System.Drawing.Point(344, 55);
+            this.cmbPosition.Name = "cmbPosition";
+            this.cmbPosition.Size = new System.Drawing.Size(121, 21);
+            this.cmbPosition.TabIndex = 9;
             // 
             // cmbDepartment
             // 
@@ -212,34 +243,6 @@ namespace PERSONAL_MANAGER
             this.lblUserNum.Size = new System.Drawing.Size(71, 20);
             this.lblUserNum.TabIndex = 0;
             this.lblUserNum.Text = "User Nº";
-            // 
-            // cmbPosition
-            // 
-            this.cmbPosition.FormattingEnabled = true;
-            this.cmbPosition.Location = new System.Drawing.Point(344, 55);
-            this.cmbPosition.Name = "cmbPosition";
-            this.cmbPosition.Size = new System.Drawing.Size(121, 21);
-            this.cmbPosition.TabIndex = 9;
-            // 
-            // btnSearch
-            // 
-            this.btnSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSearch.Location = new System.Drawing.Point(483, 11);
-            this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(115, 43);
-            this.btnSearch.TabIndex = 10;
-            this.btnSearch.Text = "Search";
-            this.btnSearch.UseVisualStyleBackColor = true;
-            // 
-            // btnClear
-            // 
-            this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClear.Location = new System.Drawing.Point(483, 69);
-            this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(115, 43);
-            this.btnClear.TabIndex = 11;
-            this.btnClear.Text = "Clear";
-            this.btnClear.UseVisualStyleBackColor = true;
             // 
             // FrmEmployeeList
             // 

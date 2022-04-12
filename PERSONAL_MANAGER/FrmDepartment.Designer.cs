@@ -29,18 +29,18 @@ namespace PERSONAL_MANAGER
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtDepartmentName = new System.Windows.Forms.TextBox();
             this.lblDepartment = new System.Windows.Forms.Label();
             this.btnSave = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // textBox1
+            // txtDepartmentName
             // 
-            this.textBox1.Location = new System.Drawing.Point(118, 11);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 0;
+            this.txtDepartmentName.Location = new System.Drawing.Point(118, 11);
+            this.txtDepartmentName.Name = "txtDepartmentName";
+            this.txtDepartmentName.Size = new System.Drawing.Size(100, 20);
+            this.txtDepartmentName.TabIndex = 0;
             // 
             // lblDepartment
             // 
@@ -61,6 +61,7 @@ namespace PERSONAL_MANAGER
             this.btnSave.TabIndex = 1;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // btnClose
             // 
@@ -81,7 +82,7 @@ namespace PERSONAL_MANAGER
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.lblDepartment);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtDepartmentName);
             this.Name = "FrmDepartment";
             this.Text = "FrmDepartment";
             this.ResumeLayout(false);
@@ -91,7 +92,7 @@ namespace PERSONAL_MANAGER
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtDepartmentName;
         private System.Windows.Forms.Label lblDepartment;
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.Button btnClose;

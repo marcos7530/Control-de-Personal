@@ -4,3 +4,4 @@ C:\Users\marco\source\repos\PERSONAL_MANAGER\DAL\obj\Debug\DAL.csproj.AssemblyRe
 C:\Users\marco\source\repos\PERSONAL_MANAGER\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 C:\Users\marco\source\repos\PERSONAL_MANAGER\DAL\obj\Debug\DAL.dll
 C:\Users\marco\source\repos\PERSONAL_MANAGER\DAL\obj\Debug\DAL.pdb
+C:\Users\marco\source\repos\PERSONAL_MANAGER\DAL\bin\Debug\DAL.dll.config

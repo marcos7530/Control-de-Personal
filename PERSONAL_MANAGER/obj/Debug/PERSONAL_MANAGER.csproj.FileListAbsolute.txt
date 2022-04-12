@@ -20,3 +20,10 @@ C:\Users\marco\source\repos\PERSONAL_MANAGER\PERSONAL_MANAGER\obj\Debug\PERSONAL
 C:\Users\marco\source\repos\PERSONAL_MANAGER\PERSONAL_MANAGER\obj\Debug\PERSONAL_MANAGER.csproj.CoreCompileInputs.cache
 C:\Users\marco\source\repos\PERSONAL_MANAGER\PERSONAL_MANAGER\obj\Debug\PERSONAL_MANAGER.exe
 C:\Users\marco\source\repos\PERSONAL_MANAGER\PERSONAL_MANAGER\obj\Debug\PERSONAL_MANAGER.pdb
+C:\Users\marco\source\repos\PERSONAL_MANAGER\PERSONAL_MANAGER\obj\Debug\PERSONAL_MANAGER.FrmPermission.resources
+C:\Users\marco\source\repos\PERSONAL_MANAGER\PERSONAL_MANAGER\obj\Debug\PERSONAL_MANAGER.FrmPermissionList.resources
+C:\Users\marco\source\repos\PERSONAL_MANAGER\PERSONAL_MANAGER\obj\Debug\PERSONAL_MANAGER.FrmSalary.resources
+C:\Users\marco\source\repos\PERSONAL_MANAGER\PERSONAL_MANAGER\obj\Debug\PERSONAL_MANAGER.FrmSlaryList.resources
+C:\Users\marco\source\repos\PERSONAL_MANAGER\PERSONAL_MANAGER\obj\Debug\PERSONAL_MANAGER.FrmTask.resources
+C:\Users\marco\source\repos\PERSONAL_MANAGER\PERSONAL_MANAGER\bin\Debug\DAL.dll.config
+C:\Users\marco\source\repos\PERSONAL_MANAGER\PERSONAL_MANAGER\obj\Debug\PERSONAL_MANAGER.csproj.CopyComplete

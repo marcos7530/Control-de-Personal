@@ -33,7 +33,7 @@ namespace PERSONAL_MANAGER
             this.txtUserNum = new System.Windows.Forms.TextBox();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.lblPassword = new System.Windows.Forms.Label();
-            this.btnEnter = new System.Windows.Forms.Button();
+            this.btnLogin = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -72,15 +72,16 @@ namespace PERSONAL_MANAGER
             this.lblPassword.TabIndex = 0;
             this.lblPassword.Text = "Password";
             // 
-            // btnEnter
+            // btnLogin
             // 
-            this.btnEnter.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEnter.Location = new System.Drawing.Point(13, 75);
-            this.btnEnter.Name = "btnEnter";
-            this.btnEnter.Size = new System.Drawing.Size(111, 35);
-            this.btnEnter.TabIndex = 2;
-            this.btnEnter.Text = "Enter";
-            this.btnEnter.UseVisualStyleBackColor = true;
+            this.btnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogin.Location = new System.Drawing.Point(13, 75);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(111, 35);
+            this.btnLogin.TabIndex = 2;
+            this.btnLogin.Text = "Login";
+            this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // btnExit
             // 
@@ -99,7 +100,7 @@ namespace PERSONAL_MANAGER
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(259, 125);
             this.Controls.Add(this.btnExit);
-            this.Controls.Add(this.btnEnter);
+            this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.lblPassword);
             this.Controls.Add(this.txtUserNum);
@@ -117,7 +118,7 @@ namespace PERSONAL_MANAGER
         private System.Windows.Forms.TextBox txtUserNum;
         private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.Label lblPassword;
-        private System.Windows.Forms.Button btnEnter;
+        private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.Button btnExit;
     }
 }

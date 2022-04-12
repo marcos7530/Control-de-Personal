@@ -31,5 +31,21 @@ namespace PERSONAL_MANAGER
         {
             pnlForAdmin.Hide();
         }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            FrmTask frm = new FrmTask();
+            this.Hide();
+            frm.ShowDialog();
+            this.Visible = true;
+        }
+
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+            FrmTask frm = new FrmTask();
+            this.Hide();
+            frm.ShowDialog();
+            this.Visible = true;
+        }
     }
 }

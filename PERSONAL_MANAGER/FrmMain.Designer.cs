@@ -48,6 +48,7 @@ namespace PERSONAL_MANAGER
             this.btnEmployee.TabIndex = 0;
             this.btnEmployee.Text = "Employee";
             this.btnEmployee.UseVisualStyleBackColor = true;
+            this.btnEmployee.Click += new System.EventHandler(this.btnEmployee_Click);
             // 
             // btnTasks
             // 
@@ -58,6 +59,7 @@ namespace PERSONAL_MANAGER
             this.btnTasks.TabIndex = 1;
             this.btnTasks.Text = "Tasks";
             this.btnTasks.UseVisualStyleBackColor = true;
+            this.btnTasks.Click += new System.EventHandler(this.btnTasks_Click);
             // 
             // btnSalary
             // 
@@ -68,6 +70,7 @@ namespace PERSONAL_MANAGER
             this.btnSalary.TabIndex = 2;
             this.btnSalary.Text = "Salary";
             this.btnSalary.UseVisualStyleBackColor = true;
+            this.btnSalary.Click += new System.EventHandler(this.btnSalary_Click);
             // 
             // btnPermission
             // 
@@ -78,6 +81,7 @@ namespace PERSONAL_MANAGER
             this.btnPermission.TabIndex = 3;
             this.btnPermission.Text = "Permission";
             this.btnPermission.UseVisualStyleBackColor = true;
+            this.btnPermission.Click += new System.EventHandler(this.btnPermission_Click);
             // 
             // btnDepartment
             // 
@@ -88,6 +92,7 @@ namespace PERSONAL_MANAGER
             this.btnDepartment.TabIndex = 4;
             this.btnDepartment.Text = "Department";
             this.btnDepartment.UseVisualStyleBackColor = true;
+            this.btnDepartment.Click += new System.EventHandler(this.btnDepartment_Click);
             // 
             // btnPosition
             // 
@@ -98,6 +103,7 @@ namespace PERSONAL_MANAGER
             this.btnPosition.TabIndex = 5;
             this.btnPosition.Text = "Position";
             this.btnPosition.UseVisualStyleBackColor = true;
+            this.btnPosition.Click += new System.EventHandler(this.btnPosition_Click);
             // 
             // btnLogOut
             // 
@@ -108,6 +114,7 @@ namespace PERSONAL_MANAGER
             this.btnLogOut.TabIndex = 6;
             this.btnLogOut.Text = "LogOut";
             this.btnLogOut.UseVisualStyleBackColor = true;
+            this.btnLogOut.Click += new System.EventHandler(this.btnLogOut_Click);
             // 
             // btnExit
             // 

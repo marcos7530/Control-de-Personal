@@ -30,29 +30,29 @@ namespace PERSONAL_MANAGER
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.cmbPosition = new System.Windows.Forms.ComboBox();
+            this.cmbDepartment = new System.Windows.Forms.ComboBox();
+            this.lblDepartment = new System.Windows.Forms.Label();
+            this.lblPosition = new System.Windows.Forms.Label();
             this.txtSurname = new System.Windows.Forms.TextBox();
             this.txtName = new System.Windows.Forms.TextBox();
             this.txtUserNum = new System.Windows.Forms.TextBox();
             this.lblSurname = new System.Windows.Forms.Label();
             this.lblName = new System.Windows.Forms.Label();
-            this.lblUserNumç = new System.Windows.Forms.Label();
+            this.lblUserNum = new System.Windows.Forms.Label();
             this.txtYear = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblYear = new System.Windows.Forms.Label();
             this.txtSalary = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lblSalary = new System.Windows.Forms.Label();
             this.cmbMoth = new System.Windows.Forms.ComboBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lblMonth = new System.Windows.Forms.Label();
             this.btnClose = new System.Windows.Forms.Button();
             this.btnSave = new System.Windows.Forms.Button();
-            this.cmbPosition = new System.Windows.Forms.ComboBox();
-            this.cmbDepartment = new System.Windows.Forms.ComboBox();
-            this.lblPosition = new System.Windows.Forms.Label();
-            this.lblDepartment = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -64,6 +64,15 @@ namespace PERSONAL_MANAGER
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(245, 469);
             this.panel1.TabIndex = 0;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView1.Location = new System.Drawing.Point(0, 181);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(245, 288);
+            this.dataGridView1.TabIndex = 1;
             // 
             // panel2
             // 
@@ -77,14 +86,41 @@ namespace PERSONAL_MANAGER
             this.panel2.Size = new System.Drawing.Size(245, 181);
             this.panel2.TabIndex = 0;
             // 
-            // dataGridView1
+            // cmbPosition
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 181);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(245, 288);
-            this.dataGridView1.TabIndex = 1;
+            this.cmbPosition.FormattingEnabled = true;
+            this.cmbPosition.Location = new System.Drawing.Point(27, 112);
+            this.cmbPosition.Name = "cmbPosition";
+            this.cmbPosition.Size = new System.Drawing.Size(191, 21);
+            this.cmbPosition.TabIndex = 1;
+            // 
+            // cmbDepartment
+            // 
+            this.cmbDepartment.FormattingEnabled = true;
+            this.cmbDepartment.Location = new System.Drawing.Point(27, 52);
+            this.cmbDepartment.Name = "cmbDepartment";
+            this.cmbDepartment.Size = new System.Drawing.Size(191, 21);
+            this.cmbDepartment.TabIndex = 0;
+            // 
+            // lblDepartment
+            // 
+            this.lblDepartment.AutoSize = true;
+            this.lblDepartment.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDepartment.Location = new System.Drawing.Point(23, 29);
+            this.lblDepartment.Name = "lblDepartment";
+            this.lblDepartment.Size = new System.Drawing.Size(104, 20);
+            this.lblDepartment.TabIndex = 16;
+            this.lblDepartment.Text = "Department";
+            // 
+            // lblPosition
+            // 
+            this.lblPosition.AutoSize = true;
+            this.lblPosition.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPosition.Location = new System.Drawing.Point(23, 89);
+            this.lblPosition.Name = "lblPosition";
+            this.lblPosition.Size = new System.Drawing.Size(73, 20);
+            this.lblPosition.TabIndex = 17;
+            this.lblPosition.Text = "Position";
             // 
             // txtSurname
             // 
@@ -130,49 +166,49 @@ namespace PERSONAL_MANAGER
             this.lblName.TabIndex = 25;
             this.lblName.Text = "Name";
             // 
-            // lblUserNumç
+            // lblUserNum
             // 
-            this.lblUserNumç.AutoSize = true;
-            this.lblUserNumç.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUserNumç.Location = new System.Drawing.Point(21, 54);
-            this.lblUserNumç.Name = "lblUserNumç";
-            this.lblUserNumç.Size = new System.Drawing.Size(71, 20);
-            this.lblUserNumç.TabIndex = 24;
-            this.lblUserNumç.Text = "User Nº";
+            this.lblUserNum.AutoSize = true;
+            this.lblUserNum.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUserNum.Location = new System.Drawing.Point(21, 54);
+            this.lblUserNum.Name = "lblUserNum";
+            this.lblUserNum.Size = new System.Drawing.Size(71, 20);
+            this.lblUserNum.TabIndex = 24;
+            this.lblUserNum.Text = "User Nº";
             // 
             // txtYear
             // 
             this.txtYear.Location = new System.Drawing.Point(131, 162);
             this.txtYear.Name = "txtYear";
             this.txtYear.Size = new System.Drawing.Size(191, 20);
-            this.txtYear.TabIndex = 31;
+            this.txtYear.TabIndex = 1;
             // 
-            // label1
+            // lblYear
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(21, 162);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(47, 20);
-            this.label1.TabIndex = 30;
-            this.label1.Text = "Year";
+            this.lblYear.AutoSize = true;
+            this.lblYear.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblYear.Location = new System.Drawing.Point(21, 162);
+            this.lblYear.Name = "lblYear";
+            this.lblYear.Size = new System.Drawing.Size(47, 20);
+            this.lblYear.TabIndex = 30;
+            this.lblYear.Text = "Year";
             // 
             // txtSalary
             // 
             this.txtSalary.Location = new System.Drawing.Point(131, 136);
             this.txtSalary.Name = "txtSalary";
             this.txtSalary.Size = new System.Drawing.Size(191, 20);
-            this.txtSalary.TabIndex = 33;
+            this.txtSalary.TabIndex = 0;
             // 
-            // label2
+            // lblSalary
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(21, 136);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(59, 20);
-            this.label2.TabIndex = 32;
-            this.label2.Text = "Salary";
+            this.lblSalary.AutoSize = true;
+            this.lblSalary.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSalary.Location = new System.Drawing.Point(21, 136);
+            this.lblSalary.Name = "lblSalary";
+            this.lblSalary.Size = new System.Drawing.Size(59, 20);
+            this.lblSalary.TabIndex = 32;
+            this.lblSalary.Text = "Salary";
             // 
             // cmbMoth
             // 
@@ -180,17 +216,17 @@ namespace PERSONAL_MANAGER
             this.cmbMoth.Location = new System.Drawing.Point(131, 188);
             this.cmbMoth.Name = "cmbMoth";
             this.cmbMoth.Size = new System.Drawing.Size(191, 21);
-            this.cmbMoth.TabIndex = 34;
+            this.cmbMoth.TabIndex = 2;
             // 
-            // label3
+            // lblMonth
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(21, 189);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(59, 20);
-            this.label3.TabIndex = 35;
-            this.label3.Text = "Month";
+            this.lblMonth.AutoSize = true;
+            this.lblMonth.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMonth.Location = new System.Drawing.Point(21, 189);
+            this.lblMonth.Name = "lblMonth";
+            this.lblMonth.Size = new System.Drawing.Size(59, 20);
+            this.lblMonth.TabIndex = 35;
+            this.lblMonth.Text = "Month";
             // 
             // btnClose
             // 
@@ -198,9 +234,10 @@ namespace PERSONAL_MANAGER
             this.btnClose.Location = new System.Drawing.Point(195, 318);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(142, 67);
-            this.btnClose.TabIndex = 37;
+            this.btnClose.TabIndex = 4;
             this.btnClose.Text = "Close";
             this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // btnSave
             // 
@@ -208,45 +245,9 @@ namespace PERSONAL_MANAGER
             this.btnSave.Location = new System.Drawing.Point(47, 318);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(142, 67);
-            this.btnSave.TabIndex = 36;
+            this.btnSave.TabIndex = 3;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = true;
-            // 
-            // cmbPosition
-            // 
-            this.cmbPosition.FormattingEnabled = true;
-            this.cmbPosition.Location = new System.Drawing.Point(27, 112);
-            this.cmbPosition.Name = "cmbPosition";
-            this.cmbPosition.Size = new System.Drawing.Size(191, 21);
-            this.cmbPosition.TabIndex = 19;
-            // 
-            // cmbDepartment
-            // 
-            this.cmbDepartment.FormattingEnabled = true;
-            this.cmbDepartment.Location = new System.Drawing.Point(27, 52);
-            this.cmbDepartment.Name = "cmbDepartment";
-            this.cmbDepartment.Size = new System.Drawing.Size(191, 21);
-            this.cmbDepartment.TabIndex = 18;
-            // 
-            // lblPosition
-            // 
-            this.lblPosition.AutoSize = true;
-            this.lblPosition.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPosition.Location = new System.Drawing.Point(23, 89);
-            this.lblPosition.Name = "lblPosition";
-            this.lblPosition.Size = new System.Drawing.Size(73, 20);
-            this.lblPosition.TabIndex = 17;
-            this.lblPosition.Text = "Position";
-            // 
-            // lblDepartment
-            // 
-            this.lblDepartment.AutoSize = true;
-            this.lblDepartment.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDepartment.Location = new System.Drawing.Point(23, 29);
-            this.lblDepartment.Name = "lblDepartment";
-            this.lblDepartment.Size = new System.Drawing.Size(104, 20);
-            this.lblDepartment.TabIndex = 16;
-            this.lblDepartment.Text = "Department";
             // 
             // FrmSalary
             // 
@@ -255,25 +256,25 @@ namespace PERSONAL_MANAGER
             this.ClientSize = new System.Drawing.Size(630, 469);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnSave);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.lblMonth);
             this.Controls.Add(this.cmbMoth);
             this.Controls.Add(this.txtSalary);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.lblSalary);
             this.Controls.Add(this.txtYear);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblYear);
             this.Controls.Add(this.txtSurname);
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.txtUserNum);
             this.Controls.Add(this.lblSurname);
             this.Controls.Add(this.lblName);
-            this.Controls.Add(this.lblUserNumç);
+            this.Controls.Add(this.lblUserNum);
             this.Controls.Add(this.panel1);
             this.Name = "FrmSalary";
             this.Text = "FrmSalary";
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -289,13 +290,13 @@ namespace PERSONAL_MANAGER
         private System.Windows.Forms.TextBox txtUserNum;
         private System.Windows.Forms.Label lblSurname;
         private System.Windows.Forms.Label lblName;
-        private System.Windows.Forms.Label lblUserNumç;
+        private System.Windows.Forms.Label lblUserNum;
         private System.Windows.Forms.TextBox txtYear;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblYear;
         private System.Windows.Forms.TextBox txtSalary;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblSalary;
         private System.Windows.Forms.ComboBox cmbMoth;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lblMonth;
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.ComboBox cmbPosition;

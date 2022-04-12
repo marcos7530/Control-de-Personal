@@ -21,5 +21,21 @@ namespace PERSONAL_MANAGER
         {
             this.Close();
         }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            FrmPermission frm = new FrmPermission();
+            this.Close();
+            frm.ShowDialog();
+            this.Visible = true;
+        }
+
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+            FrmPermission frm = new FrmPermission();
+            this.Close();
+            frm.ShowDialog();
+            this.Visible = true;
+        }
     }
 }
