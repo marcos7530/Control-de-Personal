@@ -10,12 +10,12 @@ namespace DAL.DAO
     {
         public static void AddDepartment(DEPARTMENT department)
         {
-            db.DEPARTMENT.InsertOnSubmit(department);
-
-
+           
             try
             {
-
+                db.DEPARTMENT.InsertOnSubmit(department);
+                db.SubmitChanges();
+                
             }
             catch (Exception ex)
             {

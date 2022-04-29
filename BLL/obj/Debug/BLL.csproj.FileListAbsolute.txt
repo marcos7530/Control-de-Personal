@@ -8,3 +8,13 @@ C:\Users\marco\source\repos\PERSONAL_MANAGER\BLL\obj\Debug\BLL.csproj.CopyComple
 C:\Users\marco\source\repos\PERSONAL_MANAGER\BLL\obj\Debug\BLL.dll
 C:\Users\marco\source\repos\PERSONAL_MANAGER\BLL\obj\Debug\BLL.pdb
 C:\Users\marco\source\repos\PERSONAL_MANAGER\BLL\bin\Debug\DAL.dll.config
+C:\Users\marco\OneDrive\Documentos\GitHub\Control-de-Personal\BLL\bin\Debug\BLL.dll
+C:\Users\marco\OneDrive\Documentos\GitHub\Control-de-Personal\BLL\bin\Debug\BLL.pdb
+C:\Users\marco\OneDrive\Documentos\GitHub\Control-de-Personal\BLL\bin\Debug\DAL.dll
+C:\Users\marco\OneDrive\Documentos\GitHub\Control-de-Personal\BLL\bin\Debug\DAL.pdb
+C:\Users\marco\OneDrive\Documentos\GitHub\Control-de-Personal\BLL\bin\Debug\DAL.dll.config
+C:\Users\marco\OneDrive\Documentos\GitHub\Control-de-Personal\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\marco\OneDrive\Documentos\GitHub\Control-de-Personal\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\marco\OneDrive\Documentos\GitHub\Control-de-Personal\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\marco\OneDrive\Documentos\GitHub\Control-de-Personal\BLL\obj\Debug\BLL.dll
+C:\Users\marco\OneDrive\Documentos\GitHub\Control-de-Personal\BLL\obj\Debug\BLL.pdb

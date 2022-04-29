@@ -2,7 +2,7 @@
   <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-3BVJQ9N\SQLEXPRESS;Initial Catalog=PERSONALTRAKING;Persist Security Info=True;User ID=sa2" SettingsObjectName="DAL.Properties.Settings" SettingsPropertyName="PERSONALTRAKINGConnectionString" Provider="System.Data.SqlClient" />
   <Table Name="dbo.DEPARTMENT" Member="DEPARTMENT">
     <Type Name="DEPARTMENT">
-      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
       <Column Name="DepartamentName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
     </Type>
   </Table>

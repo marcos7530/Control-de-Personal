@@ -26,7 +26,7 @@ namespace PERSONAL_MANAGER
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            FrmPermission frm = new FrmPermission();
+            FrmDepartment frm = new FrmDepartment();
             this.Close();
             frm.ShowDialog();
             frm.Visible = true;
@@ -34,7 +34,7 @@ namespace PERSONAL_MANAGER
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
-            FrmPermission frm = new FrmPermission();
+            FrmDepartment frm = new FrmDepartment();
             this.Close();
             frm.ShowDialog();
             this.Visible = true;
