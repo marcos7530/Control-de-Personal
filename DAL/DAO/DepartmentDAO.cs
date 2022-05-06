@@ -15,7 +15,6 @@ namespace DAL.DAO
             {
                 db.DEPARTMENT.InsertOnSubmit(department);
                 db.SubmitChanges();
-                
             }
             catch (Exception ex)
             {
